@@ -1,0 +1,13 @@
+source: "data/raw/images/HAM10000_metadata.csv"
+image_dirs:
+  - "data/raw/images/HAM10000_images_part_1"
+  - "data/raw/images/HAM10000_images_part_2"
+required_columns: ["lesion_id", "image_id", "dx"]
+quality:
+  primary_key: "image_id"
+  column_rules:
+    dx:
+      max_null_percent: 0
+    age:
+      min_value: 0
+      max_value: 120

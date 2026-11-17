@@ -1,0 +1,5 @@
+source: "data/raw/bigdata/medical_corpus.jsonl"
+required_columns: ["sentence"]
+quality:
+  primary_key: null
+  column_rules: {}

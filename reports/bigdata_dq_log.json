@@ -1,0 +1,11 @@
+{
+    "dataset": "bigdata",
+    "success": true,
+    "statistics": {
+        "evaluated_expectations": 2,
+        "successful_expectations": 2,
+        "unsuccessful_expectations": 0,
+        "success_percent": 100.0
+    },
+    "failed_assertions": []
+}

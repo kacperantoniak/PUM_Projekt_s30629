@@ -1,0 +1,12 @@
+source: "data/raw/tabular/diabetes.csv"
+required_columns: ["gender", "age", "hypertension", "heart_disease", "smoking_history", "bmi", "HbA1c_level", "blood_glucose_level", "diabetes"]
+quality:
+  primary_key: null
+  column_rules:
+    age:
+      max_null_percent: 0
+      min_value: 0
+      max_value: 120
+    diabetes:
+      max_null_percent: 0
+      allowed_values: [0, 1]

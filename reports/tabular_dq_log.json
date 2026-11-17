@@ -1,0 +1,11 @@
+{
+    "dataset": "tabular",
+    "success": true,
+    "statistics": {
+        "evaluated_expectations": 14,
+        "successful_expectations": 14,
+        "unsuccessful_expectations": 0,
+        "success_percent": 100.0
+    },
+    "failed_assertions": []
+}

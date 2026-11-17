@@ -1,0 +1,11 @@
+{
+    "dataset": "images",
+    "success": true,
+    "statistics": {
+        "evaluated_expectations": 7,
+        "successful_expectations": 7,
+        "unsuccessful_expectations": 0,
+        "success_percent": 100.0
+    },
+    "failed_assertions": []
+}
